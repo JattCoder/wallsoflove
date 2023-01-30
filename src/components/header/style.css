@@ -19,6 +19,7 @@
 .home-icon {
     height: 17vh;
     margin-left: 3vw;
+    cursor: pointer;
 }
 
 .home-nav {

@@ -63,7 +63,7 @@ const Header: React.FC<IProps> = (props) => {
 
     return (
         <div className='home-header'>
-            <img className='home-icon' src={MainIcon} alt={'Walls of Love'} />
+            <img onClick={() => props.set('Home')} className='home-icon' src={MainIcon} alt={'Walls of Love'} />
             <div className='home-nav'>
                 {buttons.map(renderButton)}
                 <div className='home-donate-btn'>

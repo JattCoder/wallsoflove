@@ -11,7 +11,9 @@ const Body: React.FC<IProps> = (props) => {
         if(currentSection !== props.section) {
             setCurrentSection(props.section);
         }
-    },[])
+    },[props.section])
+
+    console.log('Page: ',currentSection);
 
     return (
         <div className='body-frame'>
