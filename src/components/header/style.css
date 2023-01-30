@@ -1,0 +1,95 @@
+@keyframes hoverOn {
+    from {background-color: rgba(0,0,0,0.4);}
+    to {background-color: rgba(0,0,0,0.8);}
+}
+
+@keyframes hoverOff {
+    from {background-color: rgba(0,0,0,0.8);}
+    to {background-color: rgba(0,0,0,0.4);}
+}
+
+.home-header {
+    height: 19vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.home-icon {
+    height: 17vh;
+    margin-left: 3vw;
+}
+
+.home-nav {
+    height: 100%;
+    width: 78vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-nav-button {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 2vw;
+    opacity: 1;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+.nav-hidden {
+    font-size: 0px;
+    opacity: 0;
+}
+
+.home-nav-button:hover {
+    margin-top: 1vh;
+    color: rgba(0,0,0,0.9);
+    animation-duration: 1s
+}
+
+.home-donate-btn {
+    width: 90px;
+    height: 25%;
+    background-color:#E83A7E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 2vw;
+    cursor: pointer;
+}
+
+.home-donate-txt {
+    color: white;
+    font-size: 12.5px;
+    font-weight: 600;
+}
+
+.home-search {
+    height: 19px;
+    margin-left: 17px;
+    margin-top: 0.7vh;
+    cursor: pointer;
+}
+
+.home-cart {
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 14px;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
