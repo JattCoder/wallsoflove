@@ -4,4 +4,19 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
+    background-color: rgb(80, 80, 80);
 }
+
+.mission-frame1 {
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+    background-color: beige;
+}
+
+
+
+
+
+
+
