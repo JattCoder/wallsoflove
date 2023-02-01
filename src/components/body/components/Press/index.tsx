@@ -2,13 +2,13 @@ import React from 'react';
 import './style.css';
 import { IProps } from './interface';
 
-const Mission: React.FC<IProps> = (props) => {
+const Press: React.FC<IProps> = (props) => {
 
     return (
-        <div className='mission-frame'>
+        <div className='press-frame'>
             
         </div>
     )
 }
 
-export default Mission;
+export default Press;
