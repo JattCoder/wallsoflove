@@ -6,7 +6,7 @@ const Mission: React.FC<IProps> = (props) => {
 
     return (
         <div className='mission-frame'>
-            
+            <div></div>
         </div>
     )
 }
