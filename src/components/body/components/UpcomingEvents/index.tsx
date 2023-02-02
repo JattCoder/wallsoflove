@@ -6,7 +6,7 @@ const UpcomingEvents: React.FC<IProps> = (props) => {
 
     return (
         <div className='events-frame'>
-            
+            <p>UpcomingEvents</p>
         </div>
     )
 }

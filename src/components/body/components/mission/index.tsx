@@ -22,7 +22,7 @@ const Mission: React.FC<IProps> = (props) => {
                 <p>— Holly Jackson, Founder of Walls of Love</p>
                 <img></img>
             </div>
-            
+
             <div>
                 <div className='mission-frame3'>
                     <h2>Founded in a Moment of Need</h2>

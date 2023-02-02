@@ -6,7 +6,7 @@ const Press: React.FC<IProps> = (props) => {
 
     return (
         <div className='press-frame'>
-            
+            <p>press</p>
         </div>
     )
 }

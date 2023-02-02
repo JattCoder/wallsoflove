@@ -6,7 +6,7 @@ const Blog: React.FC<IProps> = (props) => {
 
     return (
         <div className='blog-frame'>
-            
+            <p>blog</p>
         </div>
     )
 }

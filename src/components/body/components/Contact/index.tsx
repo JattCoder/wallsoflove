@@ -6,7 +6,7 @@ const Contact: React.FC<IProps> = (props) => {
 
     return (
         <div className='contact-frame'>
-            
+            <p>contact</p>
         </div>
     )
 }

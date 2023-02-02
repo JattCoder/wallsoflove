@@ -6,7 +6,7 @@ const Volunteer: React.FC<IProps> = (props) => {
 
     return (
         <div className='volunteer-frame'>
-            
+            <p>volunteer</p>
         </div>
     )
 }
