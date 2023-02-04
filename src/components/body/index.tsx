@@ -24,14 +24,14 @@ const Body: React.FC<IProps> = (props) => {
 
     return (
         <div className='body-frame'>
-            <Mission />
-            <Volunteer/>
-            <UpcomingEvents/>
-            <Press/>
-            <Blog/>
-            <Shop/>
-            <Partners/>
-            <Contact/>
+            {currentSection === 'Mission' && <Mission />}
+            {currentSection === 'Volunteer' && <Volunteer />}
+            {currentSection === 'Upcoming Events' && <UpcomingEvents />}
+            {currentSection === 'Press' && <Press />}
+            {currentSection === 'Blog' && <Blog />}
+            {currentSection === 'Shop' && <Shop />}
+            {currentSection === 'Partners' && <Partners />}
+            {currentSection === 'Contact' && <Contact />}
         </div>
     )
 }
