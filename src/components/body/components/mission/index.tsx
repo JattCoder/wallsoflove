@@ -2,6 +2,8 @@ import React from 'react';
 import mission1 from '../../../../assets/images/Mission-1.png';
 import mission2 from '../../../../assets/images/Mission-2.png';
 import mission3 from '../../../../assets/images/Mission-3.png';
+import mission4 from '../../../../assets/images/Mission-4.png';
+import mission5 from '../../../../assets/images/Mission-5.png';
 import './style.css';
 import { IProps } from './interface';
 
@@ -46,9 +48,9 @@ const Mission: React.FC<IProps> = (props) => {
                 </div>
             </div>
 
-            <div>
-                <img/>
-                <img/>
+            <div className='mission-frame4'>
+                <img className='inner4-img' src={mission4}/>
+                <img className='inner4-img' src={mission5}/>
             </div>
         </div>
     )
