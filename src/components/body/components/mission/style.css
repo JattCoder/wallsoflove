@@ -16,45 +16,45 @@
     position: absolute;
     top: 30%
 }
-.inner1 {
+.mission-inner1 {
     display: flex;
     position: absolute;
     height: 75vh;
     width: 43vw;
-    letter-spacing: .1rem;
+    letter-spacing: .06rem;
     background-color:  rgb(245,245,245);
 }
-.inner1-title {
+.missionInner1-title {
     display: flex;
     position: absolute;
     font-size: 45px;
     color: #E83A7D;
 }
-.inner1-p1 {
+.missionInner1-p1 {
     display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 22%;
 }
-.inner1-p2 {
+.missionInner1-p2 {
     display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 34%;
 }
-.inner1-p3 {
+.missionInner1-p3 {
     display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 52%;
 }
-.inner1-p4 {
+.missionInner1-p4 {
     display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 74%;
 }
-.img1-frame {
+.missionImg1-frame {
     display: flex;
     position: absolute;
     right: 0%;
@@ -62,7 +62,7 @@
     align-items: center;
     margin-top: 8%;
 }
-.inner1-img {
+.missionInner1-img {
     display: flex;
     height: 49vh;
     width: 31vw;
@@ -78,7 +78,19 @@
     position: absolute;
     top: 115%;
 }
-.inner2 {
+.missionImg2-frame {
+    display: flex;
+    position: absolute;
+    right: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.missionInner2-img {
+    display: flex;
+    height: 100vh;
+    width: 46.7vw;
+}
+.mission-inner2 {
     display: flex;
     position: absolute;
     height: 62.2vh;
@@ -88,35 +100,23 @@
     align-items: center;
     justify-content: center;
 }
-.inner2-p1 {
+.missionInner2-p1 {
     height: 24vh;
     width: 35vw;
     display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 13%;
     letter-spacing: .2rem;
     /* background-color: rgb(223, 220, 220); */
 }
-.inner2-p2 {
+.missionInner2-p2 {
     width: 35vw;
     display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 35%;
     /* background-color: rgb(154, 155, 155); */
-}
-.img2-frame {
-    display: flex;
-    position: absolute;
-    right: 0%;
-    justify-content: center;
-    align-items: center;
-}
-.inner2-img {
-    display: flex;
-    height: 100vh;
-    width: 46.7vw;
 }
 
 
@@ -129,56 +129,56 @@
     position: absolute;
     top: 225%;
 }
-.inner3 {
+.mission-inner3 {
     display: flex;
     position: absolute;
     height: 125vh;
     width: 43.3vw;
-    letter-spacing: .1rem;
+    letter-spacing: .06rem;
     background-color:  rgb(245,245,245);
 }
-.inner3-title{
+.missionInner3-title{
     display: flex;
     position: absolute;
     font-size: 40px;
     color: #E83A7D;
 }
-.inner3-p1 {
+.missionInner3-p1 {
     display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 19%;
     /* background-color: aliceblue; */
 }
-.inner3-p2 {
+.missionInner3-p2 {
     display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 36%;
     /* background-color: aliceblue; */
 }
-.inner3-p3 {
+.missionInner3-p3 {
     display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 46%;
     /* background-color: aliceblue; */
 }
-.inner3-p4 {
+.missionInner3-p4 {
     display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 94%;
     /* background-color: aliceblue; */
 }
-.inner3-p5 {
+.missionInner3-p5 {
     display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 118%;
     /* background-color: aliceblue; */
 }
-.img3-frame {
+.missionImg3-frame {
     display: flex;
     position: absolute;
     right: 0%;
@@ -186,7 +186,7 @@
     align-items: center;
     margin-top: 8%;
 }
-.inner3-img {
+.missionInner3-img {
     display: flex;
     height: 41vh;
     width: 31vw;
@@ -201,7 +201,7 @@
     position: absolute;
     top: 364%;
 }
-.inner4-img {
+.missionInner4-img {
     display: flex;
     height: 100vh;
     width: 100vw;
