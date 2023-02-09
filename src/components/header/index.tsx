@@ -3,6 +3,7 @@ import './style.css';
 import { IProps, buttons } from './interface';
 import MainIcon from '../../assets/icons/main-icon.png';
 import SearchIcon from '../../assets/icons/search.png';
+import { PayPalButtons } from "@paypal/react-paypal-js";
 
 const Header: React.FC<IProps> = (props) => {
 
@@ -75,6 +76,7 @@ const Header: React.FC<IProps> = (props) => {
                 <div>
                     <p className='home-cart'>Cart (0)</p>
                 </div>
+                <PayPalButtons />
             </div>
         </div>
     )
