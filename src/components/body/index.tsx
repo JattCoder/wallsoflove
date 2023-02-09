@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import { IProps } from './interface';
 import Mission from './components/mission';
-import Volunteer from './components/volunteer';
+import Volunteer from './components/volunteer/index';
 import UpcomingEvents from './components/upcomingEvents';
 import Press from './components/press';
 import Blog from './components/blog';
