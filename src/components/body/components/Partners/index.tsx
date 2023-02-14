@@ -6,7 +6,7 @@ const Partners: React.FC<IProps> = (props) => {
 
     return (
         <div className='partners-frame'>
-            <p>partners</p>
+            <h2 className='partners-title '>Our Partners</h2>
         </div>
     )
 }

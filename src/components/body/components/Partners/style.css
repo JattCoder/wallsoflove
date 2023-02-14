@@ -1,3 +1,5 @@
-.partners-frame {
+.partners-title {
     display: flex;
+    font-size: 45px;
+    color: #E83A7D;
 }
