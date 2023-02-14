@@ -8,54 +8,48 @@ const Contact: React.FC<IProps> = (props) => {
         <div className='contact-frame'>
             <div className='contact-frame1'>
                 <div className='contact-inner1'>
-                    <h2 className='contactInner1-title1'>Contact Us</h2>
-                    <p className='contactInner1-p1'>Suggest a location for a wall. Leave words of encouragement. Donate items. Sponsor a wall. Or ask us how you can be involved. </p>
-                    <p className='contactInner1-p2'>Complete the form below to get in touch. We’d love to hear from you. </p>
-                    <a className='contactInner1-p3' href={'https://https://.com'}>(216) 882-9395</a>
-                    <a className='contactInner1-p4' href={'https://.com'}>wallsoflove216@gmail.com</a>
+                    <h2 className='contact-title'>Contact Us</h2>
+                    <p className='contact-p'>Suggest a location for a wall. Leave words of encouragement. Donate items. Sponsor a wall. Or ask us how you can be involved.
+                    {'\n'}{'\n'}Complete the form below to get in touch. We’d love to hear from you.</p>
+                    <a className='contact-a' href={'https://https://.com'}>(216) 882-9395 {'\n'}{'\n'}</a>
+                    <a className='contact-a' href={'https://.com'}>wallsoflove216@gmail.com{'\n'}{'\n'}</a>
                 </div>
-                <div className='contactImg1-frame'>
-                    <img className='contactInner1-img' src={contact1} />
+                <div className='contactImg-frame'>
+                    <img className='contact-img' src={contact1} />
                 </div>
             </div>
 
             <div className='contact-frame2'>
-                <h2 className='contactInner2-p1'>Have an upcoming engagement you need a speaker for? </h2>
-                <p className='contactInner2-p2'>Contact Walls of Love Founder, Holly Jackson to inspire your guests. </p>
+                <h2 className='contact-title2'>Have an upcoming engagement you need a speaker for? </h2>
+                <p className='contact-p'>Contact Walls of Love Founder, Holly Jackson to inspire your guests. </p>
             </div>
 
             <div className='contact-frame3'>
                 <div className='contact-inner3'>
-                    <p className='contactInner3-title1'>name *</p>
+                    <p className='contact-title3'>name *</p>
                     <div className='contactInput-frame1'>
-                        <input className='contactInner3-1' placeholder='First Name'></input>
-                        <input className='contactInner3-2' placeholder='First Name'></input>
+                        <input className='contact-input1' placeholder='First Name'></input>
+                        <input className='contact-input1' placeholder='First Name'></input>
                     </div>
-                </div>
-                <div className='contact-frame4'>
-                    <p className='contactInner3-title2'>Email Address *</p>
+                    <p className='contact-title4'>Email Address *</p>
                     <div className='contactInput-frame2'>
-                        <input className='contactInner3-3'></input>
+                        <input className='contact-input2' placeholder='Email'></input>
                     </div>
-                </div>
-                <div className='contact-frame5'>
-                    <p className='contactInner3-title3'>Subject *</p>
+                    <p className='contact-title5'>Subject *</p>
                     <div className='contactInput-frame3'>
-                        <input className='contactInner3-4'></input>
+                        <input className='contact-input3' placeholder='Subject'></input>
                     </div>
-                </div>
-                <div className='contact-frame6'>
-                    <p className='contactInner3-title4'>Message *</p>
+                    <p className='contact-title6'>Message *</p>
                     <div className='contactInput-frame4'>
-                        <textarea className='contactInner3-5'></textarea>
+                        <textarea className='contact-input4' placeholder='please enter your message'></textarea>
                     </div>
+                    <div className='contact-frame5'>
+                        <div className='contact-btn'>
+                            <p className='contact-submit'>Submit</p>
+                        </div>
+                </div>
                 </div>
             </div>
-            <div className='contact-frame7'>
-                    <div className='contact-btn'>
-                        <p className='contact-submit'>Submit</p>
-                    </div>
-                </div>
         </div>
     )
 }
