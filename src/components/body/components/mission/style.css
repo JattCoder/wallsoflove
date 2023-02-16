@@ -17,7 +17,7 @@
 .mission-inner1 {
     height: 70vh;
     width: 43vw;
-    letter-spacing: .06rem;
+    letter-spacing: .04rem;
     background-color:  rgb(245,245,245);
 }
 .missionInner1-title {
@@ -91,7 +91,7 @@
 }
 .mission-inner3 {
     width: 43.3vw;
-    letter-spacing: .06rem;
+    letter-spacing: .04rem;
 }
 .missionInner3-title{
     display: flex;
