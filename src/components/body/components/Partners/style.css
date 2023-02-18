@@ -16,7 +16,7 @@
 .partners-in1 {
     width: 38.4vw;
     letter-spacing: .04rem;
-    padding-bottom: 15%;
+    padding-bottom: 12%;
 }
 .partners-title {
     display: flex;
@@ -32,6 +32,8 @@
     display: flex;
     font-size: 17px;
     white-space: pre-line;
+    margin-top: 1%;
+    margin-bottom: 7%;
 }
 .partners-in2 {
     width: 38.4vw;
@@ -44,12 +46,20 @@
     letter-spacing: .04rem;
 }
 .partners-in3 {
-    height: auto;
     width: 38.4vw;
     justify-content: center;
     align-items: center;
     letter-spacing: .04rem;
-    background-color:  rgb(170, 167, 167);
-    padding-top: 1%;
-    padding-bottom: 4%;
+    padding-bottom: 10%;
+}
+.partners-in4 {
+    /* height: auto; */
+    width: 38.4vw;
+    position: absolute;
+    top: 132%;
+    right: 11.5%;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .04rem;
+    padding-bottom: 7.5%;
 }
