@@ -13,15 +13,15 @@
     display: flex;
     flex-direction: column;
 }
-.partners-in1 {
-    width: 38.4vw;
-    letter-spacing: .04rem;
-    padding-bottom: 12%;
-}
 .partners-title {
     display: flex;
     font-size: 45px;
     color: #E83A7D;
+}
+.partners-in1 {
+    width: 38.4vw;
+    letter-spacing: .04rem;
+    padding-bottom: 12%;
 }
 .partners-headLine {
     color: #3BBFE8;

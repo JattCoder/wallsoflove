@@ -6,7 +6,7 @@ const Partners: React.FC<IProps> = (props) => {
 
     return (
         <div className='partners-frame'>
-            <div className='partners-frame1 '>
+            <div className='partners-frame1'>
             <h2 className='partners-title '>Our Partners</h2>
                 <div className='partners-in1'>
                     <h4 className='partners-headLine'>MEYERS, ROMAN, FRIEDBERG & LEWIS</h4>
