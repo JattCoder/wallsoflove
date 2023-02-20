@@ -120,8 +120,7 @@ const Volunteer: React.FC<IProps> = (props) => {
                         <input type="radio" name="choice-radio"/>
                         <label>no {'\n'}{'\n'}</label>
                     </div>
-
-                    <input type="submit" value="Submit"></input>
+                    <input type="submit" value="Submit" className='volunteer-submit'></input>
                 </div>
             </div>
             <Shop/>

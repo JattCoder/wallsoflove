@@ -44,10 +44,8 @@ const Contact: React.FC<IProps> = (props) => {
                         <textarea className='contact-input4' placeholder='please enter your message'></textarea>
                     </div>
                     <div className='contact-frame5'>
-                        <div className='contact-btn'>
-                            <p className='contact-submit'>Submit</p>
-                        </div>
-                </div>
+                        <input type="submit" value="Submit" className='contact-submit'></input>
+                    </div>
                 </div>
             </div>
         </div>

@@ -56,6 +56,7 @@
 .volunteer-textArea {
     height: 12vh;
     width: 30vw;
+    resize:none;
 }
 .volunteer-multipleInput {
     flex-direction: row;
@@ -79,4 +80,11 @@
     width: 7vw;
     margin-left: .1%;
     margin-right: .6%;
+}
+.volunteer-submit {
+    height: 6vh;
+    width: 9vw;
+    border-radius: 25px;
+    color: #E83A7D;
+    border-color: #E83A7D;
 }

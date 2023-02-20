@@ -171,6 +171,7 @@
     font-size: 18px;
     padding-left: .5%;
     padding-right: .5%;
+    resize:none;
 }
 
 .contact-frame5 {
@@ -181,23 +182,12 @@
     margin-top: 36%;
     cursor: pointer;
     align-items: center;
+}
 
-}
-.contact-btn {
-    height: 6vh;
-    width: 8vw;
-    display: flex;
-    color: #E83A7D;
-    cursor: pointer;
-    position: absolute;
-    border-radius: 55px;
-    border: solid 2px #E83A7D;;
-}
 .contact-submit {
-    display: flex;
+    height: 6vh;
+    width: 9vw;
+    border-radius: 25px;
     color: #E83A7D;
-    cursor: pointer;
-    margin-left: 25%;
-    margin-top: 9%;
-    position: absolute;
+    border-color: #E83A7D;
 }
