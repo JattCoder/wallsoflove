@@ -12,6 +12,7 @@
     width: 77vw;
     display: flex;
     flex-direction: column;
+    letter-spacing: .04rem;
 }
 .shop-inner {
     height: 33vh;

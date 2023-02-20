@@ -7,7 +7,6 @@
     background-color: rgb(245,245,245);
     flex-direction: column;
 }
-
 .mission-frame1 {
     height: auto;
     width: 77vw;
@@ -46,8 +45,6 @@
     height: 42vh;
     width: 32vw;
 }
-
-
 .mission-frame2 {
     height: 114vh;
     width: 77vw;
@@ -116,7 +113,6 @@
     height: 41vh;
     width: 31vw;
 }
-
 .mission-frame4{
     height: auto;
     width: 100vw;
