@@ -11,7 +11,7 @@ const Volunteer: React.FC<IProps> = (props) => {
     return (
         <div className='volunteer-frame'>
             <div className='volunteer-frame1'>
-                <h2 className='volunteer-title'>Walls of Love Partners with the Cleveland Indians to do its EPIC 1000th Wall in Cleveland</h2>
+                <h2 className='volunteer-title'>Volunteer</h2>
                 <div className='volunteer-inner1'>
                     <p className='volunteer-p1'>Want to make a difference in your local community but not sure where to start? Walls of Love is a group of individuals with dramatically different backgrounds all with the same purpose, to improve the lives of those in need one act of service, one wall at a time.{'\n'}{'\n'}
                     Currently, volunteers are needed to set up walls, package wall items, assist with special events and provide wall clean up. {'\n'}{'\n'}
