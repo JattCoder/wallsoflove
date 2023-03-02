@@ -37,7 +37,12 @@
     cursor: pointer;
     font-size: 25px;
     font-weight: bold;
+    cursor: pointer;
 }
 .blog-subtitle {
     font-size: 15px;
+}
+.blog-subtitle1 {
+    font-size: 15px;
+    cursor: pointer;
 }
