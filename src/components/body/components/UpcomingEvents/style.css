@@ -1,0 +1,27 @@
+.upcoming-frame {
+    display: flex;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    flex-direction: column;
+    letter-spacing: .04rem;
+    padding-top: 3%;
+    padding-bottom: 6%;
+}
+.upcoming-frame1 {
+    height: auto;
+    width: 77vw;
+    display: flex;
+    flex-direction: column;
+    white-space: pre-line;
+}
+.upcoming-title {
+    display: flex;
+    font-size: 42px;
+    color: #E83A7D;
+}
+.upcoming-subtitle {
+    font-size: 18px;
+}
