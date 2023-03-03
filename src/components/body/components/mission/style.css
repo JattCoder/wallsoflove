@@ -1,0 +1,127 @@
+.mission-frame {
+    display: flex;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    flex-direction: column;
+}
+.mission-frame1 {
+    height: auto;
+    width: 77vw;
+    display: flex;
+    flex-direction: column;
+}
+.mission-inner1 {
+    height: 70vh;
+    width: 43vw;
+    letter-spacing: .04rem;
+    background-color:  rgb(245,245,245);
+}
+.missionInner1-title {
+    display: flex;
+    font-size: 45px;
+    color: #E83A7D;
+}
+.missionInner1-p {
+    display: flex;
+    font-size: 17px;
+    white-space: pre-line;
+}
+.missionInner1-a {
+    display: flex;
+    font-size: 17px;
+    white-space: pre-line;
+}
+.missionImg1-frame {
+    position: absolute;
+    top: 34%;
+    right: 11.5%;
+    justify-content: center;
+    align-items: center;
+}
+.missionInner1-img {
+    height: 42vh;
+    width: 32vw;
+}
+.mission-frame2 {
+    height: 114vh;
+    width: 77vw;
+    display: flex;
+    flex-direction: column;
+}
+.missionImg2-frame {
+    position: absolute;
+    right: 11.5%;
+    justify-content: center;
+    align-items: center;
+}
+.missionInner2-img {
+    height: 100vh;
+    width: 46.7vw;
+}
+.mission-inner2 {
+    position: absolute;
+    display: flex;
+    height: 62.2vh;
+    width: 42vw;
+    background-color: #FFFFFF;
+    margin-top: 8.84%;
+    align-items: center;
+    justify-content: center;
+}
+.missionInner2-p {
+    height: 24vh;
+    width: 35vw;
+    display: flex;
+    font-size: 17px;
+    letter-spacing: .2rem;
+    white-space: pre-line;
+}
+
+.mission-frame3{
+    height: auto;
+    width: 77vw;
+    display: flex;
+    flex-direction: column;
+}
+.mission-inner3 {
+    width: 43.3vw;
+    letter-spacing: .04rem;
+}
+.missionInner3-title{
+    display: flex;
+    font-size: 40px;
+    color: #E83A7D;
+}
+.missionInner3-p {
+    display: flex;
+    font-size: 17px;
+    white-space: pre-line;
+}
+.missionImg3-frame {
+    display: flex;
+    position: absolute;
+    right: 11.5%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.5%;
+}
+.missionInner3-img {
+    display: flex;
+    height: 41vh;
+    width: 31vw;
+}
+.mission-frame4{
+    height: auto;
+    width: 100vw;
+    background-color: rgb(198, 198, 196);
+    display: flex;
+    flex-direction: column;
+}
+.missionInner4-img {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}

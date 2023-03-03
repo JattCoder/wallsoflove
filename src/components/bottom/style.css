@@ -1,5 +1,52 @@
 .bottom-frame {
     height: 50vh;
     width: 100vw;
+    display: flex;
     background-color: #413E56;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    white-space: pre-line;
+}
+.bottom-frame1 {
+    width: 77vw;
+    display: flex;
+    flex-direction: row;
+}
+.bottom-inner1 {
+    height: 50vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.bottom-inner2 {
+    height: 50vh;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.bottom-p {
+    display: flex;
+}
+.bottom-a {
+    display: flex;
+    cursor: pointer;
+}
+.bottom-input {
+    height: 5vh;
+    width: 12vw;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.bottom-submit {
+    margin-top: 5%;
+    height: 6vh;
+    width: 9vw;
+    border-radius: 25px;
+    color: #E83A7D;
+    border-color: #E83A7D;
 }

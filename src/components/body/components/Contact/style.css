@@ -1,0 +1,193 @@
+.contact-frame {
+    display: flex;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    flex-direction: column;
+    letter-spacing: .04rem;
+}
+
+.contact-frame1 {
+    height: 83vh;
+    width: 77vw;
+    display: flex;
+    flex-direction: column;
+}
+.contact-inner1 {
+    height: 70vh;
+    width: 43vw;
+    letter-spacing: .06rem;
+}
+.contact-title {
+    display: flex;
+    font-size: 45px;
+    color: #E83A7D;
+}
+.contact-p {
+    display: flex;
+    font-size: 17px;
+    white-space: pre-line;
+}
+.contact-a {
+    display: flex;
+    font-size: 17px;
+    white-space: pre-line;
+}
+.contactImg-frame {
+    position: absolute;
+    top: 34%;
+    right: 11.5%;
+    justify-content: center;
+    align-items: center;
+}
+.contact-img {
+    display: flex;
+    height: 68vh;
+    width: 32vw;
+} 
+.contact-frame2 {
+    height: auto;
+    width: 77vw;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: .06rem;
+}
+.contact-title2 {
+    display: flex;
+    width: 40%;
+    font-size: 45px;
+    color: #E83A7D;
+}
+
+.contact-frame3 {
+    height: auto;
+    width: 77vw;
+    display: flex;
+    flex-direction: column;
+}
+.contact-inner3 {
+    display: flex;
+    height: 100vh;
+    width: 43vw;
+    letter-spacing: .06rem;
+}
+
+.contact-title3 {
+    display: flex;
+    height: 4vh;
+    width: 6vw;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 2%;
+}
+.contactInput-frame1 {
+    display: flex;
+    position: absolute;
+    margin-top: 4%;
+}
+.contact-input1 {
+    display: flex;
+    height: 5vh;
+    width: 21.2vw;
+    font-size: 18px;
+    padding-left: .5%;
+    padding-right: .5%;
+    margin-left: .2%;
+    margin-right: .2%;
+}
+
+.contact-title4 {
+    display: flex;
+    height: 4vh;
+    width: 15vw;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: .2%;
+    position: absolute;
+    margin-top: 9%;
+}
+.contactInput-frame2 {
+    display: flex;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 12%;
+}
+.contact-input2 {
+    display: flex;
+    height: 5vh;
+    width: 42.6vw;
+    font-size: 18px;
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+.contact-title5 {
+    display: flex;
+    height: 4vh;
+    width: 15vw;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: .2%;
+    position: absolute;
+    margin-top: 17%;
+}
+.contactInput-frame3 {
+    display: flex;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 20%;
+}
+.contact-input3 {
+    display: flex;
+    height: 5vh;
+    width: 42.6vw;
+    font-size: 18px;
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+.contact-title6 {
+    display: flex;
+    height: 4vh;
+    width: 15vw;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: .2%;
+    position: absolute;
+    margin-top: 25%;
+}
+.contactInput-frame4 {
+    display: flex;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 28%;
+}
+.contact-input4 {
+    display: flex;
+    height: 14vh;
+    width: 42.6vw;
+    font-size: 18px;
+    padding-left: .5%;
+    padding-right: .5%;
+    resize:none;
+}
+
+.contact-frame5 {
+    display: flex;
+    height: 10vh;
+    width: 77vw;
+    position: absolute;
+    margin-top: 36%;
+    cursor: pointer;
+    align-items: center;
+}
+
+.contact-submit {
+    height: 6vh;
+    width: 9vw;
+    border-radius: 25px;
+    color: #E83A7D;
+    border-color: #E83A7D;
+}

@@ -1,0 +1,41 @@
+.shop-frame {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    flex-direction: column;
+}
+.shop-frame1 {
+    height: auto;
+    width: 77vw;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: .04rem;
+}
+.shop-inner {
+    height: 33vh;
+    width: 55vw;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.shop-title {
+    display: flex;
+    font-size: 42px;
+    color: #E83A7D;
+}
+.shop-p1 {
+    font-size: 19px;
+    white-space: pre-line;
+
+}
+.shop-p2 {
+    font-size: 12px;
+    white-space: pre-line;
+    padding-bottom: 10%;
+}
+.shop-img {
+    height: 23vh;
+    width: 16vw;
+}
