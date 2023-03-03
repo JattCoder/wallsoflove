@@ -10,9 +10,7 @@ const Home = () => {
 
   return (
     <div className='home-frame'>
-      <Header set={setSection} />
       <Body section={section} />
-      <Bottom />
     </div>
   )
 }

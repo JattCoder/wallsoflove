@@ -3,6 +3,7 @@ import './style.css';
 import { IProps, buttons } from './interface';
 import MainIcon from '../../assets/icons/main-icon.png';
 import SearchIcon from '../../assets/icons/search.png';
+import { NavLink } from 'react-router-dom';
 
 const Header: React.FC<IProps> = (props) => {
 
@@ -63,7 +64,7 @@ const Header: React.FC<IProps> = (props) => {
 
     return (
         <div className='home-header'>
-            <img onClick={() => props.set('Home')} className='home-icon' src={MainIcon} alt={'Walls of Love'} />
+            <img onClick={() => window.open('http://localhost:3000/blogs')} className='home-icon' src={MainIcon} alt={'Walls of Love'} />
             <div className='home-nav'>
                 {buttons.map(renderButton)}
                 <div className='home-donate-btn'>
@@ -81,3 +82,5 @@ const Header: React.FC<IProps> = (props) => {
 }
 
 export default Header;
+
+// https://www.npmjs.com/package/react-simple-image-slider
