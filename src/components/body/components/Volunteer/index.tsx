@@ -3,7 +3,7 @@ import './style.css';
 import { IProps } from './interface';
 import volunteer1 from '../../../../assets/images/Volunteer-1.png';
 import volunteer2 from '../../../../assets/images/Volunteer-2.png';
-import Shop from './../shop'
+import Shop from '../shop'
 
 
 const Volunteer: React.FC<IProps> = (props) => {
